@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
-    long long x,y;
-    cin>>x>>y;
-    cout<<x<<" + "<<y<<" = "<<x+y<<endl;
-    cout<<x<<" * "<<y<<" = "<<x*y<<endl;
-    cout<x<<" - "<<y<<" = "<<x-y<<endl;
+int main () { 
+    int X;
+    long long Y;
+    cin >> X >> Y;
+    cout << X << " + " << Y << " = " << X + Y << '\n';
+    cout << X << " * " << Y << " = " << X * Y << '\n';
+    cout << X << " - " << Y << " = " << X - Y <<'\n';
 }
